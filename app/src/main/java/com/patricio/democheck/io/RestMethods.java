@@ -24,6 +24,8 @@ public interface RestMethods {
                                          @Part("tipoChecado") RequestBody tipoChecado,
                                          @Part("fecha") RequestBody fecha,
                                          @Part("horaDispositivo") RequestBody horaDispositivo,
+                                         @Part("latitud") RequestBody latitud,
+                                         @Part("longitud") RequestBody longitud,
                                          @Part("foto\"; filename=\"myfile.jpg\" ") RequestBody foto);
 
 
