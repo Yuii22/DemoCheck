@@ -23,7 +23,7 @@ public class RestClient {
 
         if (API_SERVICE == null){
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl("http://192.168.42.217:8080/DemoCheck/web/")
+                    .baseUrl("http://mspvit.net/rh-mspv/checado/")
                     .client(httpClient.build())
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
